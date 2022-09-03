@@ -40,7 +40,7 @@ public:
     }
 };
 
-class Bassist 
+class Bassist:public Musician
 {
 public:
     void play() {
@@ -54,7 +54,7 @@ public:
     }
 };
 
-class Drummer 
+class Drummer:public Musician
 {
 public:
     void play() {
